@@ -1,0 +1,25 @@
+{
+  "name": "jes-tools",
+  "version": "1.0.1",
+  "description": "Common code of Jes.",
+  "main": "lib/bundle.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "author": "Jes",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.2",
+    "rollup": "^3.20.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.0.2",
+    "tslib": "^2.5.0"
+  },
+  "dependencies": {
+  }
+}
